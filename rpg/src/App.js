@@ -39,9 +39,11 @@ export default function App() {
 }
 
 function Home() {
-  return <h2>Persos</h2>;
+  return (
+<h1>Home</h1>
+  );
 }
 
 function Persos() {
-  return <h2>Users</h2>;
+  return(<h2>Persos</h2>);
 }
